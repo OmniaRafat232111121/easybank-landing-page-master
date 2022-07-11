@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--BoxIcons-->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+  <!--style-->
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Easybank landing page</title>
+
+</head>
+<body>
+<!--Header-->
+  <header class="hedaer">
+    <!--navigation-->
+    <nav class="nav__container">
+      <img class="nav__logo" src="images/logo.svg" alt="logo" >
+      <div class="nav__link">
+
+        <div class="nav__link hide-for-desktop">
+          <ul class="nav__content-desktop">
+            <li><a class = 'inner__link' href="#home">Home</a></li>
+            <li><a class = 'inner__link' href="#about">About</a></li>
+            <li><a class = 'inner__link' href="#">Contact</a></li>
+            <li><a class = 'inner__link' href="#">Blog</a></li>
+            <li><a class = 'inner__link' href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="button hide-for-desktop">
+          <button class="btn">Request Invite</button>
+        </div>
+
+        <img class="nav__hamburger hide-for-mobile"
+          src="images/icon-hamburger.svg" alt="hamburger"  />
+        <img class="nav__close close hide-for-mobile" src="images/icon-close.svg" alt="close" />
+
+    </nav>
+    <!--navigation Contaent-->
+    <div class="nav__content-container container opacity-0 hide-for-mobile">
+    <ul class="nav__content">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Careers</a></li>
+    </ul>
+  </div>
+  </header>
+
+
+  <!--Main-->
+  <main
+  <div class="overlay opacity-0 hide-for-mobile"></div>
+      <!-- Intro -->
+      <section class="section intro" id="home">
+        <div class="intro__container grid">
+          <div class="intro__first">
+            <div class="intro__image"></div>
+          </div>
+          <div class="intro__second container">
+            <h1>Next generation digital banking</h1>
+            <p>
+              Take your financial life online. Your Easybank account will be a
+              one-stop-shop for spending, saving, budgeting, investing, and much
+              more.
+            </p>
+            <div class="button">
+              <button class="btn">Request Invite</button>
+            </div>
+          </div>
+        </div>
+      </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
